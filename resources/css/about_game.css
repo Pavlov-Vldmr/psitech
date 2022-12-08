@@ -1,0 +1,57 @@
+@media (max-width: 997px) {
+    .top-article>.row{
+        width: 100%;
+    }
+    .article-game{
+        font-size: 1.3em;
+    }
+
+    .game_discription{
+        display: flex !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 100%;
+        align-items: center;
+    }
+
+    div.row.featurette{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+}
+
+@media (min-width: 700px) {
+    .about_game_article{
+        font-size: 5em !important;
+    }
+}
+
+.about_game_main{
+    background: linear-gradient(184.32deg, #000000 17.44%, rgba(0, 0, 0, 0) 95.53%), linear-gradient(355.09deg, #070418 3.17%, rgba(0, 0, 0, 0) 84.62%), rgba(0, 0, 0, 0.2);
+    background-size: cover;
+}
+
+.about_game_container{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.article-game{
+    font-size: 1.3em;
+}
+
+.about_game_container>div:last-child{
+    margin-bottom: 80px;
+}
+
+.about_game_article{
+    /*font-size: 5em !important;*/
+}
+
+.top_photo{
+    max-width: 420px;
+}

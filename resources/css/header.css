@@ -1,0 +1,36 @@
+
+
+.navbar {
+  margin-bottom: 20px;
+  background: rgba(20, 20, 20, 0.9);
+}
+
+.navbar-brand{
+  width: 121px;
+  height: 41px;
+  background-image: url(/img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: rgb(143, 143, 143);
+  text-shadow: #377edbbe;
+}
+
+.nav-link:focus{
+  color: rgb(87, 100, 126);
+  text-shadow: #377edbbe;
+}
+
+.navbar-toggler-icon{
+  background-image: url(/icons/burger.png);
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
